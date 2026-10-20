@@ -74,5 +74,7 @@
   msg.textContent = 'DEVONthink wird geöffnet …';
   link.setAttribute('href', target);
   link.hidden = false;
+  var hint = doc.getElementById('hint');
+  if (hint) hint.hidden = false;
   root.location.replace(target);
 })(typeof window !== 'undefined' ? window : this);
