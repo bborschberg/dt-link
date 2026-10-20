@@ -1,0 +1,4 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif; }
+main { max-width: 32rem; margin: 4rem auto; padding: 0 1rem; }
+a { font-weight: 600; }
